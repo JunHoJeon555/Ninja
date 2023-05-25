@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 5110207352612090234}
+  - {fileID: 87762703110313100}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45,8 +45,8 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.5, y: 11, z: 2}
-  m_Center: {x: 0, y: 19.7, z: 0}
---- !u!1001 &5110207352612482040
+  m_Center: {x: 0, y: 10, z: 0}
+--- !u!1001 &87762703110442510
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -56,10 +56,6 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 8385c34c8f5ea4a4b9501987179dd431, type: 3}
       propertyPath: m_Name
       value: Knife_LODC
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8385c34c8f5ea4a4b9501987179dd431, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9.62
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8385c34c8f5ea4a4b9501987179dd431, type: 3}
       propertyPath: m_RootOrder
@@ -108,11 +104,11 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 8385c34c8f5ea4a4b9501987179dd431, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 53f40ccfd1c738942b4e090ab91fa645, type: 2}
+      objectReference: {fileID: 2100000, guid: 260f6a9890ae88d48859d34acf3a5a7d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8385c34c8f5ea4a4b9501987179dd431, type: 3}
---- !u!4 &5110207352612090234 stripped
+--- !u!4 &87762703110313100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 8385c34c8f5ea4a4b9501987179dd431, type: 3}
-  m_PrefabInstance: {fileID: 5110207352612482040}
+  m_PrefabInstance: {fileID: 87762703110442510}
   m_PrefabAsset: {fileID: 0}
